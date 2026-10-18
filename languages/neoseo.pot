@@ -1,0 +1,482 @@
+# Copyright (C) 2026 mtpamir
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: NeoSEO 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/neoseo\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-18T13:31:48+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: neoseo\n"
+
+#. Plugin Name of the plugin
+#: neoseo.php
+#: src/Admin/Settings.php:96
+#: src/Admin/Settings.php:97
+#: src/Admin/Settings.php:306
+msgid "NeoSEO"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: neoseo.php
+msgid "https://wordpress.org/plugins/neoseo/"
+msgstr ""
+
+#. Description of the plugin
+#: neoseo.php
+msgid "Gives Google the product data it needs to show your variants, prices, shipping and returns — ProductGroup variant markup, shipping details from your real zones, a connected JSON-LD graph and llms.txt. Stands aside automatically when a full SEO plugin is active."
+msgstr ""
+
+#. Author of the plugin
+#: neoseo.php
+msgid "mtpamir"
+msgstr ""
+
+#. Author URI of the plugin
+#: neoseo.php
+msgid "https://profiles.wordpress.org/mtpamir/"
+msgstr ""
+
+#: src/Admin/Dashboard.php:62
+msgid "Posts with Article schema"
+msgstr ""
+
+#: src/Admin/Dashboard.php:66
+msgid "Pages with WebPage schema"
+msgstr ""
+
+#: src/Admin/Dashboard.php:75
+msgid "Products with Product schema"
+msgstr ""
+
+#: src/Admin/Dashboard.php:81
+msgid "Pages with FAQ schema"
+msgstr ""
+
+#: src/Admin/Dashboard.php:84
+msgid "Coverage"
+msgstr ""
+
+#: src/Admin/Dashboard.php:159
+msgid "What NeoSEO is doing"
+msgstr ""
+
+#. translators: %s: detected SEO plugin slug.
+#: src/Admin/Dashboard.php:165
+#, php-format
+msgid "Another SEO plugin (%s) is active, so overlapping modules are off by default to avoid duplicate output. You can re-enable any of them on the Settings tab."
+msgstr ""
+
+#: src/Admin/Dashboard.php:177
+msgid "Active"
+msgstr ""
+
+#: src/Admin/Dashboard.php:177
+msgid "Off"
+msgstr ""
+
+#: src/Admin/Dashboard.php:206
+msgid "Schema inspector"
+msgstr ""
+
+#: src/Admin/Dashboard.php:207
+msgid "Pick any published page to see the exact JSON-LD NeoSEO outputs for it — no need to view source."
+msgstr ""
+
+#: src/Admin/Dashboard.php:212
+msgid "Choose content to inspect"
+msgstr ""
+
+#: src/Admin/Dashboard.php:214
+msgid "— Select content —"
+msgstr ""
+
+#: src/Admin/Dashboard.php:232
+msgid "Inspect"
+msgstr ""
+
+#: src/Admin/Dashboard.php:240
+msgid "The structured-data module is currently off, so this graph is a preview of what would be output if you enabled it."
+msgstr ""
+
+#: src/Admin/Dashboard.php:246
+msgid "No schema could be generated for that content."
+msgstr ""
+
+#: src/Admin/Dashboard.php:274
+msgid "Test this page with Google Rich Results"
+msgstr ""
+
+#: src/Admin/Dashboard.php:276
+msgid "Open the Schema.org validator"
+msgstr ""
+
+#: src/Admin/Dashboard.php:289
+msgid "Pages"
+msgstr ""
+
+#: src/Admin/Dashboard.php:290
+msgid "Posts"
+msgstr ""
+
+#: src/Admin/Dashboard.php:294
+msgid "Products"
+msgstr ""
+
+#: src/Admin/Dashboard.php:314
+msgid "(no title)"
+msgstr ""
+
+#: src/Admin/Modules.php:34
+msgid "JSON-LD structured data"
+msgstr ""
+
+#: src/Admin/Modules.php:35
+msgid "One connected @graph in the page head: Organization, WebSite, WebPage, breadcrumbs, articles, products and FAQs."
+msgstr ""
+
+#: src/Admin/Modules.php:38
+msgid "Product variant markup"
+msgstr ""
+
+#: src/Admin/Modules.php:39
+msgid "ProductGroup markup so each variation of a variable product can appear in search with its own price, size and colour. Stays on when another SEO plugin is active, because none of them produce it."
+msgstr ""
+
+#: src/Admin/Modules.php:42
+#: src/Admin/PostMeta.php:142
+msgid "Meta description"
+msgstr ""
+
+#: src/Admin/Modules.php:43
+msgid "Generated from the excerpt, product short description or term description."
+msgstr ""
+
+#: src/Admin/Modules.php:46
+msgid "Open Graph & Twitter cards"
+msgstr ""
+
+#: src/Admin/Modules.php:47
+msgid "Title, description, canonical URL and image for social sharing previews."
+msgstr ""
+
+#: src/Admin/Modules.php:50
+msgid "llms.txt for AI crawlers"
+msgstr ""
+
+#: src/Admin/Modules.php:51
+msgid "A cached markdown summary of your site — identity, key pages, product categories and popular products."
+msgstr ""
+
+#: src/Admin/PostMeta.php:99
+msgid "NeoSEO — Search Appearance"
+msgstr ""
+
+#: src/Admin/PostMeta.php:127
+msgid "Search result preview"
+msgstr ""
+
+#: src/Admin/PostMeta.php:136
+#: src/Admin/PostMeta.php:149
+msgid "No description yet — search engines will choose their own text from the page."
+msgstr ""
+
+#: src/Admin/PostMeta.php:147
+msgid "Describe this page in a sentence."
+msgstr ""
+
+#: src/Admin/PostMeta.php:156
+msgid "Leave empty to use the text generated from this content, shown above as placeholder."
+msgstr ""
+
+#: src/Admin/PostMeta.php:158
+msgid "This content has no text to generate a description from, so writing one here is the only way to control it."
+msgstr ""
+
+#: src/Admin/Settings.php:47
+msgid "Dashboard"
+msgstr ""
+
+#: src/Admin/Settings.php:51
+#: src/Admin/Settings.php:83
+#: src/Admin/Settings.php:349
+msgid "Settings"
+msgstr ""
+
+#: src/Admin/Settings.php:55
+msgid "Guide"
+msgstr ""
+
+#. translators: %s: detected SEO plugin slug.
+#: src/Admin/Settings.php:357
+#, php-format
+msgid "Another SEO plugin (%s) is active. Overlapping NeoSEO modules are off by default so nothing is output twice — re-enable individual modules below only if you know they do not collide."
+msgstr ""
+
+#. translators: %s: detected schema plugin slug.
+#: src/Admin/Settings.php:374
+#, php-format
+msgid "A structured-data plugin (%s) is active alongside NeoSEO, and both are writing schema. Two Product nodes on one page is the most common cause of rich results being ignored — switch off the JSON-LD module below, or the other plugin's output."
+msgstr ""
+
+#: src/Admin/Settings.php:388
+msgid "Organization"
+msgstr ""
+
+#: src/Admin/Settings.php:389
+msgid "Identifies your site in the structured-data graph. Search engines use this to connect your pages to your brand."
+msgstr ""
+
+#: src/Admin/Settings.php:393
+msgid "Organization name"
+msgstr ""
+
+#: src/Admin/Settings.php:398
+msgid "Leave empty to use your site title."
+msgstr ""
+
+#: src/Admin/Settings.php:402
+msgid "Logo attachment ID"
+msgstr ""
+
+#: src/Admin/Settings.php:406
+msgid "Leave empty to use the site icon or the theme logo."
+msgstr ""
+
+#: src/Admin/Settings.php:410
+msgid "Profiles (sameAs)"
+msgstr ""
+
+#: src/Admin/Settings.php:414
+msgid "One social or profile URL per line."
+msgstr ""
+
+#: src/Admin/Settings.php:425
+msgid "Returns"
+msgstr ""
+
+#: src/Admin/Settings.php:426
+msgid "Google increasingly expects a return policy before it will show a product with price and availability. WooCommerce does not store one, so NeoSEO asks here — and publishes nothing until you choose a policy, because this is a promise to your customers as well as a signal to Google."
+msgstr ""
+
+#: src/Admin/Settings.php:430
+msgid "Returns accepted"
+msgstr ""
+
+#: src/Admin/Settings.php:434
+msgid "Do not publish a return policy"
+msgstr ""
+
+#: src/Admin/Settings.php:435
+msgid "Yes, within a set number of days"
+msgstr ""
+
+#: src/Admin/Settings.php:436
+msgid "Yes, with no time limit"
+msgstr ""
+
+#: src/Admin/Settings.php:437
+msgid "No, returns are not accepted"
+msgstr ""
+
+#: src/Admin/Settings.php:442
+msgid "Return window (days)"
+msgstr ""
+
+#: src/Admin/Settings.php:447
+msgid "Only used when returns are accepted within a set number of days."
+msgstr ""
+
+#: src/Admin/Settings.php:451
+msgid "How items come back"
+msgstr ""
+
+#: src/Admin/Settings.php:455
+#: src/Admin/Settings.php:467
+msgid "Not specified"
+msgstr ""
+
+#: src/Admin/Settings.php:456
+msgid "By post"
+msgstr ""
+
+#: src/Admin/Settings.php:457
+msgid "In store"
+msgstr ""
+
+#: src/Admin/Settings.php:458
+msgid "At a kiosk or drop-off point"
+msgstr ""
+
+#: src/Admin/Settings.php:463
+msgid "Who pays return postage"
+msgstr ""
+
+#: src/Admin/Settings.php:468
+msgid "We do — returns are free"
+msgstr ""
+
+#: src/Admin/Settings.php:469
+msgid "The customer does"
+msgstr ""
+
+#: src/Admin/Settings.php:470
+msgid "The customer pays a fixed fee"
+msgstr ""
+
+#: src/Admin/Settings.php:475
+msgid "Fee"
+msgstr ""
+
+#: src/Admin/Settings.php:479
+msgid "Applies to country"
+msgstr ""
+
+#: src/Admin/Settings.php:484
+msgid "Two-letter country code. Leave empty to use your store address."
+msgstr ""
+
+#: src/Admin/Settings.php:495
+msgid "Product attributes"
+msgstr ""
+
+#: src/Admin/Settings.php:496
+msgid "Tells search engines what each attribute means. NeoSEO recognises the usual names on its own — set one here only when it guesses wrong, or when your attribute has a name of your own."
+msgstr ""
+
+#: src/Admin/Settings.php:505
+msgid "Detect automatically"
+msgstr ""
+
+#: src/Admin/Settings.php:509
+msgid "Do not describe this attribute"
+msgstr ""
+
+#: src/Admin/Settings.php:518
+msgid "Modules"
+msgstr ""
+
+#: src/Admin/Settings.php:519
+msgid "Switch off anything another plugin already handles. The Dashboard tab shows what each module is currently doing."
+msgstr ""
+
+#: src/Admin/Settings.php:598
+msgid "How NeoSEO works"
+msgstr ""
+
+#: src/Admin/Settings.php:602
+msgid "It runs automatically"
+msgstr ""
+
+#: src/Admin/Settings.php:603
+msgid "There is nothing to add to your pages. NeoSEO reads the content you already have and prints the structured data in the page head."
+msgstr ""
+
+#: src/Admin/Settings.php:606
+msgid "One connected graph"
+msgstr ""
+
+#: src/Admin/Settings.php:607
+msgid "Every node is linked by @id, so search engines see one coherent description of the page instead of disconnected fragments."
+msgstr ""
+
+#: src/Admin/Settings.php:610
+msgid "FAQ schema from Details blocks"
+msgstr ""
+
+#: src/Admin/Settings.php:611
+msgid "Add two or more Details blocks to a page — question in the summary, answer inside — and NeoSEO turns them into FAQ schema."
+msgstr ""
+
+#: src/Admin/Settings.php:614
+msgid "WooCommerce products"
+msgstr ""
+
+#: src/Admin/Settings.php:615
+msgid "Price, currency, stock availability, SKU, ratings and reviews are read straight from the product. WooCommerce's own thinner markup is removed so there is exactly one product description."
+msgstr ""
+
+#: src/Admin/Settings.php:618
+msgid "Answer engines and AI search"
+msgstr ""
+
+#: src/Admin/Settings.php:619
+msgid "Articles carry speakable hints, and /llms.txt gives AI crawlers a compact, always-current summary of your site."
+msgstr ""
+
+#: src/Admin/Settings.php:624
+msgid "Frequently asked questions"
+msgstr ""
+
+#: src/Admin/Settings.php:627
+msgid "How do I check my schema is valid?"
+msgstr ""
+
+#: src/Admin/Settings.php:628
+msgid "Use the Schema inspector on the Dashboard tab to see the exact output, then follow the validator links below it to confirm with Google or Schema.org."
+msgstr ""
+
+#: src/Admin/Settings.php:632
+msgid "I already use Yoast or Rank Math. Is this a conflict?"
+msgstr ""
+
+#: src/Admin/Settings.php:633
+msgid "No. NeoSEO detects them and switches off its JSON-LD, meta description and Open Graph modules automatically, so none of that is output twice. Product variant markup stays on, because none of them produce it, and so does llms.txt. If your SEO plugin also generates an llms.txt, switch one of the two off."
+msgstr ""
+
+#: src/Admin/Settings.php:637
+msgid "Do I need WooCommerce?"
+msgstr ""
+
+#: src/Admin/Settings.php:638
+msgid "No. Product schema only activates when WooCommerce is installed; everything else works on any WordPress site."
+msgstr ""
+
+#: src/Admin/Settings.php:642
+msgid "Why does my page show fewer nodes than another?"
+msgstr ""
+
+#: src/Admin/Settings.php:643
+msgid "Each node describes something real. A page with no FAQ blocks has no FAQ node, and a post with no featured image has no image node. That is expected and correct."
+msgstr ""
+
+#: src/Admin/Settings.php:648
+msgid "Need help?"
+msgstr ""
+
+#: src/Admin/Settings.php:649
+msgid "Documentation and support for the whole NeoPlugin family:"
+msgstr ""
+
+#: src/Schema/AttributeMap.php:185
+msgid "Colour"
+msgstr ""
+
+#: src/Schema/AttributeMap.php:186
+msgid "Size"
+msgstr ""
+
+#: src/Schema/AttributeMap.php:187
+msgid "Material"
+msgstr ""
+
+#: src/Schema/AttributeMap.php:188
+msgid "Pattern"
+msgstr ""
+
+#: src/Schema/AttributeMap.php:189
+msgid "Audience (gender)"
+msgstr ""
+
+#: src/Schema/Provider/Breadcrumbs.php:80
+msgid "Home"
+msgstr ""
+
+#: src/Schema/Provider/Breadcrumbs.php:130
+msgid "Search results"
+msgstr ""
